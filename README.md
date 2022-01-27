@@ -5,7 +5,7 @@ This container image can be used to run Spigot in a container
 
 ## Usage
 ```docker
-docker run -d -v {spigot_folder}:/minecraft -p 25565:25565 --name raxdyndns ghcr.io/peanutsguy/spigot
+docker run -d -v {spigot_folder}:/minecraft -p 25565:25565 --name spigot ghcr.io/peanutsguy/spigot
 ```
 
 | Parameter | Description |
